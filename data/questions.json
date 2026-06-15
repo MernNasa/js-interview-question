@@ -1,4 +1,41 @@
  {
+  "JavaScript Introduction": [
+"what-is-javascript",
+"why-do-we-use-javascript",
+"what-are-the-main-features-of-javascript",
+"is-javascript-a-compiled-or-interpreted-language",
+"is-javascript-a-synchronous-or-asynchronous-language",
+"what-makes-javascript-single-threaded",
+"what-is-the-history-of-javascript",
+"who-created-javascript",
+"what-is-the-difference-between-javascript-and-java",
+"what-are-the-different-versions-of-javascript",
+"what-is-ecmascript",
+"what-is-the-difference-between-javascript-and-ecmascript",
+"what-new-features-were-introduced-in-es6",
+"where-can-javascript-be-used",
+"can-javascript-be-used-on-the-server-side",
+"what-is-nodejs",
+"what-is-the-javascript-engine",
+"what-is-the-v8-engine",
+"how-does-javascript-code-get-executed-in-the-browser",
+"what-are-the-different-ways-to-include-javascript-in-an-html-page",
+"what-is-the-difference-between-inline-internal-and-external-javascript",
+"what-is-the-purpose-of-the-script-tag",
+"what-is-the-difference-between-script-async-and-defer",
+"what-happens-when-a-browser-encounters-a-script-tag",
+"what-is-strict-mode-in-javascript",
+"why-is-strict-mode-used",
+"what-are-the-benefits-of-using-javascript",
+"what-are-the-limitations-of-javascript",
+"what-are-the-data-types-supported-by-javascript",
+"what-are-the-most-important-concepts-to-learn-in-javascript",
+"why-is-javascript-considered-a-dynamically-typed-language",
+"what-is-the-difference-between-client-side-and-server-side-javascript",
+"what-is-cross-browser-compatibility-in-javascript",
+"what-are-the-most-common-use-cases-of-javascript",
+"why-is-javascript-so-popular-in-web-development"
+],
     "Data Types & Variables": [
     "what-are-the-various-data-types-in-javascript",
     "how-do-you-check-the-data-type-of-a-variable",
@@ -12,6 +49,118 @@
     "what-are-symbols-used-for",
     "what-are-proxies-in-javascript-used-for"
   ],
+  "Operators": [
+"what-are-operators-in-javascript",
+"what-are-the-different-types-of-operators-in-javascript",
+"what-is-the-difference-between-arithmetic-and-assignment-operators",
+"what-are-arithmetic-operators-in-javascript",
+"what-are-assignment-operators-in-javascript",
+"what-are-comparison-operators-in-javascript",
+"what-are-logical-operators-in-javascript",
+"what-are-bitwise-operators-in-javascript",
+"what-are-ternary-operators-in-javascript",
+"what-is-the-typeof-operator",
+"what-is-the-delete-operator",
+"what-is-the-in-operator",
+"what-is-the-instanceof-operator",
+"what-is-the-void-operator",
+"what-is-the-spread-operator",
+"what-is-the-rest-operator",
+"what-is-the-nullish-coalescing-operator",
+"what-is-the-optional-chaining-operator",
+"what-is-the-comma-operator",
+"what-is-operator-precedence",
+"what-is-operator-associativity",
+"how-does-javascript-evaluate-expressions-with-multiple-operators"
+],
+
+"Arithmetic Operators": [
+"what-is-the-purpose-of-addition-subtraction-multiplication-division-and-modulus-operators",
+"what-is-the-difference-between-division-and-modulus-operators",
+"what-is-the-exponentiation-operator",
+"what-is-the-difference-between-prefix-and-postfix-increment-operators",
+"what-is-the-difference-between-prefix-and-postfix-decrement-operators",
+"predict-the-output-of-increment-and-decrement-operator-code-snippets",
+"what-happens-when-arithmetic-operators-are-used-with-strings"
+],
+
+"Comparison Operators": [
+"what-is-the-difference-between-double-equals-and-triple-equals",
+"what-is-the-difference-between-not-equals-and-strict-not-equals",
+"why-is-triple-equals-recommended-over-double-equals",
+"what-is-type-coercion-in-comparison-operators",
+"predict-the-output-of-equality-operator-code-snippets",
+"what-will-be-the-output-of-null-and-undefined-comparisons",
+"how-do-comparison-operators-work-with-strings"
+],
+
+"Logical Operators": [
+"what-are-logical-and-or-and-not-operators",
+"what-is-short-circuit-evaluation",
+"how-does-the-logical-and-operator-work",
+"how-does-the-logical-or-operator-work",
+"how-does-the-logical-not-operator-work",
+"predict-the-output-of-logical-operator-code-snippets",
+"how-can-logical-operators-be-used-for-default-values"
+],
+
+"Assignment Operators": [
+"what-is-the-difference-between-equals-and-compound-assignment-operators",
+"what-are-addition-assignment-subtraction-assignment-and-multiplication-assignment-operators",
+"what-are-logical-assignment-operators",
+"what-is-the-nullish-assignment-operator",
+"predict-the-output-of-assignment-operator-code-snippets"
+],
+
+"Ternary Operator": [
+"what-is-the-ternary-operator",
+"when-should-you-use-the-ternary-operator",
+"how-is-the-ternary-operator-different-from-if-else",
+"can-you-nest-ternary-operators",
+"what-are-the-disadvantages-of-nested-ternary-operators"
+],
+
+"Modern Operators": [
+"what-is-the-nullish-coalescing-operator",
+"what-is-the-difference-between-nullish-coalescing-and-logical-or",
+"what-is-the-optional-chaining-operator",
+"how-do-optional-chaining-and-nullish-coalescing-work-together",
+"what-is-the-spread-operator",
+"what-is-the-rest-operator",
+"what-is-the-difference-between-spread-and-rest-operators"
+],
+"Type Conversion": [
+"what-is-type-conversion-in-javascript",
+"what-is-the-difference-between-implicit-and-explicit-type-conversion",
+"what-is-type-coercion-in-javascript",
+"how-does-javascript-perform-automatic-type-conversion",
+"why-is-type-conversion-important-in-javascript",
+"what-are-the-common-types-that-can-be-converted-in-javascript",
+"how-do-you-convert-a-string-to-a-number",
+"how-do-you-convert-a-number-to-a-string",
+"how-do-you-convert-a-string-to-a-boolean",
+"how-do-you-convert-a-boolean-to-a-number",
+"how-do-you-convert-a-value-to-a-string-using-string-constructor",
+"how-do-you-convert-a-value-to-a-number-using-number-constructor",
+"what-is-the-difference-between-number-and-parseint",
+"what-is-the-difference-between-number-and-parsefloat",
+"what-is-the-difference-between-parseint-and-parsefloat",
+"how-does-the-unary-plus-operator-convert-values-to-numbers",
+"what-happens-when-number-is-used-on-an-invalid-string",
+"what-is-nan-and-how-is-it-produced",
+"how-do-you-check-if-a-value-is-nan",
+"what-is-the-difference-between-isnan-and-numberisnan",
+"what-are-truthy-and-falsy-values",
+"which-values-are-considered-falsy-in-javascript",
+"which-values-are-considered-truthy-in-javascript",
+"how-does-boolean-conversion-work-in-javascript",
+"what-happens-when-null-is-converted-to-a-number",
+"what-happens-when-undefined-is-converted-to-a-number",
+"what-happens-when-null-is-converted-to-a-boolean",
+"what-happens-when-undefined-is-converted-to-a-boolean",
+"what-happens-when-an-empty-string-is-converted-to-a-number",
+"what-happens-when-a-boolean-is-converted-to-a-number"
+],
   "Hoisting": [
     "explain-hoisting",
     "explain-the-difference-in-hoisting-between-var-let-and-const",
@@ -77,17 +226,6 @@
     "explain-the-concept-of-a-microtask-queue",
     "what-is-the-difference-between-settimeout-setimmediate-and-processnexttick"
   ],
-  "Prototypes & Inheritance": [
-    "explain-how-prototypal-inheritance-works",
-    "what-is-the-prototype-chain-and-how-does-it-work",
-    "explain-the-difference-between-classical-inheritance-and-prototypal-inheritance",
-    "explain-the-concept-of-inheritance-in-es2015-classes",
-    "what-is-the-purpose-of-the-new-keyword",
-    "how-do-you-create-a-constructor-function",
-    "what-are-the-differences-between-es6-class-and-es5-function-constructors",
-    "what-advantage-is-there-for-using-the-arrow-syntax-for-a-method-in-a-constructor",
-    "why-you-might-want-to-create-static-class-members"
-  ],
   "Closures & Scope": [
     "what-is-a-closure-and-how-why-would-you-use-one",
     "explain-the-concept-of-lexical-scoping",
@@ -102,47 +240,6 @@
     "explain-the-different-ways-the-this-keyword-can-be-bound",
     "what-are-the-common-pitfalls-of-using-the-this-keyword",
     "explain-the-concept-of-this-binding-in-event-handlers"
-  ],
-  "DOM Manipulation & Events": [
-    "what-is-the-dom-and-how-is-it-structured",
-    "whats-the-difference-between-an-attribute-and-a-property",
-    "explain-the-difference-between-documentqueryselector-and-documentgetelementbyid",
-    "how-do-you-add-remove-and-modify-html-elements-using-javascript",
-    "what-are-event-listeners-and-how-are-they-used",
-    "explain-the-event-phases-in-a-browser",
-    "describe-event-bubbling",
-    "describe-event-capturing",
-    "explain-event-delegation",
-    "how-do-you-prevent-the-default-behavior-of-an-event",
-    "what-is-the-difference-between-eventpreventdefault-and-eventstoppropagation",
-    "what-is-the-difference-between-mouseenter-and-mouseover-event",
-    "what-is-the-difference-between-innerhtml-and-textcontent",
-    "how-do-you-manipulate-css-styles-using-javascript"
-  ],
-  "Web APIs & Browser APIs": [
-    "describe-the-difference-between-script-async-and-script-defer",
-    "what-is-the-difference-between-the-window-object-and-the-document-object",
-    "describe-the-difference-between-a-cookie-sessionstorage-and-localstorage",
-    "how-do-you-make-an-http-request-using-the-fetch-api",
-    "what-are-the-different-ways-to-make-an-api-call-in-javascript",
-    "explain-ajax-in-as-much-detail-as-possible",
-    "what-are-the-advantages-and-disadvantages-of-using-ajax",
-    "what-are-the-differences-between-xmlhttprequest-and-fetch",
-    "how-do-you-abort-a-web-request-using-abortcontrollers",
-    "explain-how-jsonp-works-and-how-its-not-really-ajax",
-    "what-are-workers-in-javascript-used-for",
-    "explain-the-concept-of-the-web-socket-api",
-    "what-are-javascript-polyfills-for",
-    "how-do-you-detect-if-javascript-is-disabled-on-a-page",
-    "what-is-the-intl-namespace-object-for",
-    "how-do-you-validate-form-elements-using-the-constraint-validation-api",
-    "how-do-you-use-windowhistory-api",
-    "how-do-iframe-on-a-page-communicate",
-    "difference-between-document-load-event-and-document-domcontentloaded-event",
-    "how-do-you-redirect-to-a-new-page-in-javascript",
-    "how-do-you-get-the-query-string-values-of-the-current-page-in-javascript",
-    "what-are-server-sent-events",
-    "what-are-progressive-web-applications-pwas"
   ],
   "Modules": [
     "what-are-modules-and-why-are-they-useful",
@@ -167,13 +264,6 @@
     "provide-some-examples-of-how-currying-and-partial-application-can-be-used",
     "how-do-currying-and-partial-application-differ-from-each-other"
   ],
-  "Sets & Maps": [
-    "what-are-sets-and-maps-and-how-are-they-used",
-    "what-are-the-differences-between-map-set-and-weakmap-weakset",
-    "how-do-you-convert-a-set-to-an-array-in-javascript",
-    "what-is-the-difference-between-a-map-object-and-a-plain-object-in-javascript",
-    "how-do-sets-and-maps-handle-equality-checks-for-objects"
-  ],
   "Performance Optimization": [
     "what-are-some-common-performance-bottlenecks-in-javascript-applications",
     "explain-the-concept-of-debouncing-and-throttling",
@@ -185,30 +275,7 @@
     "what-are-some-tools-that-can-be-used-to-measure-and-analyze-javascript-performance",
     "how-can-you-optimize-network-requests-for-better-performance"
   ],
-  "Testing": [
-    "what-are-the-different-types-of-testing-in-software-development",
-    "explain-the-difference-between-unit-testing-integration-testing-and-end-to-end-testing",
-    "what-are-some-popular-javascript-testing-frameworks",
-    "how-do-you-write-unit-tests-for-javascript-code",
-    "explain-the-concept-of-test-driven-development-tdd",
-    "what-are-mocks-and-stubs-and-how-are-they-used-in-testing",
-    "how-can-you-test-asynchronous-code-in-javascript",
-    "what-are-some-best-practices-for-writing-maintainable-and-effective-tests",
-    "explain-the-concept-of-code-coverage-and-how-it-can-be-used-to-assess-test-quality",
-    "what-are-some-tools-that-can-be-used-for-javascript-testing"
-  ],
-  "Design Patterns": [
-    "what-are-design-patterns-and-why-are-they-useful",
-    "explain-the-concept-of-the-singleton-pattern",
-    "what-is-the-factory-pattern-and-how-is-it-used",
-    "explain-the-observer-pattern-and-its-use-cases",
-    "what-is-the-module-pattern-and-how-does-it-help-with-encapsulation",
-    "explain-the-concept-of-the-prototype-pattern",
-    "what-is-the-decorator-pattern-and-how-is-it-used",
-    "explain-the-concept-of-the-strategy-pattern",
-    "what-is-the-command-pattern-and-how-is-it-used",
-    "why-is-extending-built-in-javascript-objects-not-a-good-idea"
-  ],
+ 
   "Security": [
     "what-is-cross-site-scripting-xss-and-how-can-you-prevent-it",
     "explain-the-concept-of-cross-site-request-forgery-csrf-and-its-mitigation-techniques",
@@ -222,14 +289,214 @@
     "how-can-you-implement-secure-authentication-and-authorization-in-javascript-applications",
     "explain-the-same-origin-policy-with-regards-to-javascript"
   ],
-  "Misc": [
-    "what-is-use-strict-what-are-the-advantages-and-disadvantages-to-using-it",
-    "what-tools-and-techniques-do-you-use-for-debugging-javascript-code",
-    "how-does-javascript-garbage-collection-work",
-    "explain-what-a-single-page-app-is-and-how-to-make-one-seo-friendly",
-    "how-can-you-share-code-between-files",
-    "how-do-you-organize-your-code-module-pattern-classical-inheritance",
-    "what-are-some-of-the-advantages-disadvantages-of-writing-javascript-code-in-a-language-that-compiles-to-javascript",
-    "when-would-you-use-document-write"
-  ]
+  "Event Loop": [
+  "what-is-the-javascript-event-loop",
+  "why-is-the-event-loop-needed-in-javascript",
+  "how-does-the-event-loop-work-step-by-step",
+  "what-is-the-call-stack",
+  "what-is-the-callback-queue",
+  "what-is-the-microtask-queue",
+  "what-is-the-macrotask-queue",
+  "what-is-the-difference-between-microtask-and-macrotask-queues",
+  "which-executes-first-microtasks-or-macrotasks",
+  "how-do-promises-interact-with-the-event-loop",
+  "how-does-settimeout-work-internally",
+  "does-settimeout-with-zero-delay-execute-immediately",
+  "what-happens-when-the-call-stack-is-blocked",
+  "how-does-javascript-handle-asynchronous-operations",
+  "what-is-the-execution-order-of-call-stack-microtask-queue-and-macrotask-queue",
+  "how-do-async-await-work-with-the-event-loop",
+  "how-does-queueMicrotask-work",
+  "what-is-the-difference-between-settimeout-and-setinterval",
+  "how-do-browser-web-apis-participate-in-the-event-loop"
+],
+  "Variables & Scope Scenarios": [
+"a-button-click-counter-keeps-resetting-after-each-click-how-would-you-fix-it",
+"a-variable-declared-inside-a-loop-is-accessible-outside-the-loop-why-is-this-happening",
+"when-would-you-use-let-instead-of-var-in-a-production-application",
+"how-would-you-prevent-global-scope-pollution-in-a-large-javascript-project",
+"what-problems-can-arise-from-accidentally-creating-global-variables",
+"how-would-you-share-data-between-functions-without-using-global-variables"
+],
+"Hoisting Scenarios": [
+"what-will-happen-when-you-access-a-var-variable-before-its-declaration",
+"why-does-accessing-a-let-variable-before-declaration-throw-an-error",
+"a-function-is-called-before-its-definition-and-the-application-crashes-how-would-you-debug-it",
+"how-does-hoisting-behave-differently-for-function-declarations-and-function-expressions",
+"what-are-common-bugs-caused-by-hoisting-and-how-can-you-avoid-them"
+],
+"Type Conversion Scenarios": [
+"a-user-input-value-is-coming-as-a-string-how-would-you-convert-it-to-a-number",
+"how-would-you-validate-that-a-user-entered-a-valid-number",
+"why-does-adding-two-input-values-result-in-string-concatenation-instead-of-addition",
+"how-would-you-handle-empty-input-values-during-number-conversion",
+"how-would-you-convert-api-response-values-to-the-required-data-types",
+"what-problems-can-be-caused-by-implicit-type-conversion",
+"why-is-type-coercion-considered-a-common-source-of-bugs-in-javascript",
+"how-would-you-safely-compare-values-of-different-types",
+"how-would-you-convert-form-data-before-sending-it-to-an-api",
+"what-are-the-best-practices-for-working-with-type-conversion-in-javascript"
+],
+
+"Closures Scenarios": [
+"how-would-you-create-a-private-counter-that-cannot-be-modified-directly-from-outside",
+"why-does-a-settimeout-inside-a-var-loop-print-the-same-value-multiple-times",
+"how-would-you-fix-the-loop-and-settimeout-closure-problem",
+"how-can-closures-be-used-to-implement-data-privacy",
+"where-are-closures-commonly-used-in-real-world-frontend-applications"
+],
+
+"Event Loop Scenarios": [
+"predict-the-output-of-synchronous-code-and-settimeout-callbacks",
+"why-does-a-promise-callback-execute-before-a-settimeout-callback",
+"a-page-becomes-unresponsive-while-processing-a-large-array-how-would-you-handle-it",
+"what-is-the-difference-between-microtasks-and-macrotasks",
+"how-would-you-debug-an-issue-caused-by-the-javascript-event-loop"
+],
+
+"Promises Scenarios": [
+"how-would-you-call-three-dependent-apis-one-after-another",
+"how-would-you-execute-multiple-api-calls-in-parallel-and-wait-for-all-responses",
+"one-api-fails-among-multiple-api-calls-how-would-you-handle-it-without-losing-other-results",
+"when-would-you-use-promise-all-vs-promise-allsettled",
+"how-would-you-handle-network-failures-while-working-with-promises"
+],
+
+"Async Await Scenarios": [
+"how-would-you-display-a-loader-until-api-data-is-loaded",
+"what-happens-if-you-forget-to-use-await-before-a-promise",
+"how-would-you-handle-api-errors-using-async-await",
+"how-can-you-run-multiple-async-operations-in-parallel-using-async-await",
+"how-would-you-cancel-an-ongoing-api-request"
+],
+
+
+
+"Event Delegation Scenarios": [
+"what-is-event-delegation-and-why-is-it-useful",
+"how-would-you-handle-click-events-for-dynamically-added-buttons",
+"how-does-event-bubbling-help-in-event-delegation",
+"what-are-the-performance-benefits-of-event-delegation",
+"how-would-you-debug-an-event-delegation-issue"
+],
+
+"API Integration Scenarios": [
+"the-api-response-takes-ten-seconds-how-would-you-improve-user-experience",
+"users-can-click-a-submit-button-multiple-times-causing-duplicate-api-requests-how-would-you-prevent-it",
+"how-would-you-handle-api-rate-limiting-in-a-frontend-application",
+"what-would-you-do-if-an-api-sometimes-returns-invalid-data",
+"how-would-you-display-meaningful-error-messages-for-api-failures"
+],
+
+"Debouncing & Throttling Scenarios": [
+"how-would-you-optimize-an-api-search-box-using-debouncing",
+"when-would-you-use-throttling-instead-of-debouncing",
+"how-would-you-optimize-a-window-scroll-event",
+"what-problems-can-occur-if-debouncing-is-not-used-for-search-inputs",
+"how-does-throttling-improve-performance-in-real-time-applications"
+],
+
+"Local Storage & Session Storage Scenarios": [
+"how-would-you-save-a-users-dark-mode-preference",
+"how-would-you-persist-shopping-cart-data-after-page-refresh",
+"when-would-you-use-session-storage-instead-of-local-storage",
+"how-would-you-handle-storage-limitations-in-the-browser",
+"what-security-concerns-exist-when-storing-data-in-local-storage"
+],
+
+"Array & Object Scenarios": [
+"how-would-you-find-a-specific-user-from-a-large-array-of-objects",
+"when-would-you-use-find-instead-of-filter",
+"how-would-you-remove-duplicate-values-from-an-array",
+"how-would-you-group-objects-based-on-a-property",
+"how-would-you-sort-an-array-of-objects-by-multiple-fields"
+],
+
+"Performance Optimization Scenarios": [
+"a-web-page-loads-slowly-how-would-you-identify-the-bottleneck",
+"how-would-you-optimize-a-large-list-rendering-on-the-browser",
+"what-techniques-can-reduce-javascript-bundle-size",
+"how-would-you-improve-the-performance-of-frequent-dom-updates",
+"how-would-you-lazy-load-resources-in-a-frontend-application"
+],
+
+"Frontend System Design Scenarios": [
+"how-would-you-design-a-todo-application",
+"how-would-you-design-a-shopping-cart-system",
+"how-would-you-design-a-real-time-chat-application",
+"how-would-you-design-an-infinite-scroll-feed",
+"how-would-you-design-a-multi-step-form-with-validation"
+],
+"DOM Manipulation & Events": [
+  "what-is-the-dom-and-how-is-it-structured",
+  "whats-the-difference-between-an-attribute-and-a-property",
+  "explain-the-difference-between-documentqueryselector-and-documentgetelementbyid",
+  "how-do-you-add-remove-and-modify-html-elements-using-javascript",
+  "what-are-event-listeners-and-how-are-they-used",
+  "explain-the-event-phases-in-a-browser",
+  "describe-event-bubbling",
+  "describe-event-capturing",
+  "explain-event-delegation",
+  "how-do-you-prevent-the-default-behavior-of-an-event",
+  "what-is-the-difference-between-eventpreventdefault-and-eventstoppropagation",
+  "what-is-the-difference-between-mouseenter-and-mouseover-event",
+  "what-is-the-difference-between-innerhtml-and-textcontent",
+  "how-do-you-manipulate-css-styles-using-javascript",
+
+  "what-is-the-difference-between-innerhtml-innertext-and-textcontent",
+  "how-do-you-create-an-element-dynamically-using-javascript",
+  "how-do-you-append-an-element-to-the-dom",
+  "how-do-you-remove-an-element-from-the-dom",
+  "how-do-you-replace-an-existing-dom-element",
+  "how-do-you-select-multiple-elements-from-the-dom",
+  "what-is-the-difference-between-htmlcollection-and-nodelist",
+  "what-is-the-difference-between-queryselector-and-queryselectorall",
+  "how-do-you-access-parent-child-and-sibling-elements",
+  "what-is-the-difference-between-parentnode-and-parentelement",
+  "what-is-the-difference-between-children-and-childnodes",
+  "how-do-you-check-if-an-element-has-a-specific-class",
+  "how-do-you-add-remove-and-toggle-css-classes",
+  "what-is-classlist-and-how-is-it-used",
+  "how-do-you-hide-and-show-elements-using-javascript",
+  "how-do-you-read-and-update-input-field-values",
+  "how-do-you-get-and-set-custom-data-attributes",
+  "what-are-data-attributes-and-when-would-you-use-them",
+  "how-do-you-disable-and-enable-form-fields-using-javascript",
+  "what-is-the-difference-between-disabled-and-readonly",
+
+  "how-do-you-handle-button-click-events",
+  "how-do-you-handle-keyboard-events-in-javascript",
+  "what-is-the-difference-between-keydown-keypress-and-keyup",
+  "how-do-you-detect-the-enter-key-in-an-input-field",
+  "how-do-you-detect-right-click-events",
+  "how-do-you-detect-scroll-events",
+  "how-do-you-detect-window-resize-events",
+  "what-is-the-load-event-in-javascript",
+  "what-is-the-domcontentloaded-event",
+  "what-is-the-difference-between-load-and-domcontentloaded",
+  "how-do-you-remove-an-event-listener",
+  "why-is-event-delegation-important-for-performance",
+
+  "how-would-you-create-a-modal-popup-using-javascript",
+  "how-would-you-build-an-accordion-component",
+  "how-would-you-build-a-dropdown-menu-using-javascript",
+  "how-would-you-implement-tabs-using-dom-manipulation",
+  "how-would-you-create-an-image-slider",
+  "how-would-you-build-a-live-search-filter",
+  "how-would-you-create-a-character-counter-for-a-textarea",
+  "how-would-you-build-a-custom-tooltip-component",
+  "how-would-you-implement-a-dark-mode-toggle",
+  "how-would-you-create-a-todo-app-using-dom-manipulation",
+
+  "why-do-event-listeners-not-work-on-dynamically-created-elements",
+  "how-do-you-handle-events-for-dynamically-created-elements",
+  "what-are-memory-leaks-in-dom-manipulation",
+  "how-can-unused-event-listeners-cause-memory-leaks",
+  "what-are-common-dom-performance-issues",
+  "how-can-you-improve-dom-rendering-performance",
+  "what-is-reflow-and-repaint-in-the-browser",
+  "how-can-excessive-dom-manipulation-affect-performance",
+  "why-should-you-minimize-direct-dom-updates",
+  "what-is-documentfragment-and-when-should-it-be-used"
+]
 }
