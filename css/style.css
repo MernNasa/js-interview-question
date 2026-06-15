@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI, sans-serif;
+    background:#f5f7fb;
+    min-height:100vh;
+}
+
+/* HEADER */
+
+header{
+    background: linear-gradient(
+        135deg,
+        #0f172a 0%,
+        #312e81 50%,
+        #7c3aed 100%
+    );
+
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    opacity:0.9;
+    font-size:1.1rem;
+}
+
+/* MASONRY LAYOUT */
+
+#root{
+    max-width:1400px;
+    margin:40px auto;
+    padding:20px;
+
+    columns:3 350px;
+    column-gap:25px;
+}
+
+/* CARD */
+
+.topic-card{
+    display:inline-block;
+    width:100%;
+
+    background:white;
+
+    margin-bottom:25px;
+
+    padding:20px;
+
+    border-radius:18px;
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+
+.topic-card:hover{
+    transform:translateY(-5px);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* TITLE */
+
+.topic-title{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.question-count{
+    display:inline-block;
+
+    background:#e0e7ff;
+    color:#4338ca;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:0.85rem;
+    font-weight:600;
+
+    margin-bottom:20px;
+}
+
+/* QUESTIONS */
+
+ul{
+    list-style:none;
+}
+
+li{
+    background:#f8fafc;
+
+    padding:12px;
+
+    margin-bottom:10px;
+
+    border-left:4px solid #2563eb;
+
+    border-radius:8px;
+
+    transition:0.3s;
+}
+
+li:hover{
+    background:#dbeafe;
+    transform:translateX(5px);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    #root{
+        columns:1;
+    }
+}
